@@ -1,0 +1,92 @@
+*{
+    margin: 4px;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+
+.letra{
+    font-family: 'Merriweather', serif;
+}
+
+header{
+    background-image: url(https://preview.redd.it/jphcpt7yozp41.png?auto=webp&s=24125c5c5653df3b97930ecd34a634bfedd46ce7);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner{
+    width: 100px;
+    height: 100px;
+}
+
+   ul {
+    list-style-type: none;
+   }
+   
+   .venta{
+    height: 60px;
+    width: 70px;
+   }
+   
+   li{
+    display: inline-block;
+    align-items: flex-end;
+    margin: 0;
+   }
+   
+   a{
+    text-decoration: none;
+    border: solid 2px;
+    border-color: rgb(14, 35, 35);
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+   }
+
+   .dark div{
+  
+    border-bottom:solid 1px grey;
+    width:100%;
+    height:50px;
+  }
+
+.normie{
+    height: 100px;
+    width: 130px;
+}
+
+.juegos{
+   height: 180px;
+   width: 120px; 
+}
+
+iframe{
+    width: 150px;
+    height: 150px;
+}
+
+.padtitul{
+    padding: 10px;
+}
+
+input{
+    display: block;
+    padding-right: 100px;
+}
+
+.formblock{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.consulta{
+    padding-bottom: 80px;
+}
+
+.negrita{
+    font-weight: bolder;
+}
