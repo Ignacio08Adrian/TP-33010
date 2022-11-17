@@ -149,3 +149,10 @@ input{
 .margen{
     padding: 0.5rem;
 }
+
+@media(max-width: 768px){
+    header{
+        background-image: url(https://i.pinimg.com/originals/8c/97/7d/8c977d06abc3eee45c0e696c3e325dc1.jpg);
+        background-size: cover;
+    }   
+}

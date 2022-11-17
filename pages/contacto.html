@@ -33,15 +33,21 @@
             que estas esperando? En este mismo instante podriamos estar haciendo algun evento que te estas perdiendo.
             Sumate!
             </p>
-        </div>
+            <form action="">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">nombre</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name" required>
+                <label for="exampleFormControlInput1" class="form-label">Correo electronico</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">consulta</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <input class="btn btn-primary" type="submit" value="enviar">
+        </form>
 
-        <div>
-            <form class="formblock">
-                <input type="text" placeholder="nombre*" required>
-                <input type="email" placeholder="email*" required>
-                <input type="text" placeholder="numero de telefono*" required>
-                <input class="consulta" type="text" placeholder="consulta(opcional)"">
-            </form>
+
         </div>
      
 
