@@ -3,24 +3,24 @@
 }
 
 body{
-    background-color: black;
+    background-image: linear-gradient(to top, #000000, #1b181c, #282a35, #2c404c, #31585b);
     color: white;
-    font-family: 'Mulish', sans-serif;
-}
-
-.letra{
     font-family: 'Merriweather', serif;
 }
 
+.letra{
+    font-family: 'Permanent Marker', cursive;
+}
+
 header{
-    background-image: url(https://preview.redd.it/jphcpt7yozp41.png?auto=webp&s=24125c5c5653df3b97930ecd34a634bfedd46ce7);
+    background-image: url(https://images3.alphacoders.com/104/1046496.png) ;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .banner{
-    width: 100px;
-    height: 100px;
+    width: 4rem;
+    height: 4rem;
 }
 
    ul {
@@ -45,6 +45,10 @@ header{
     color: white;
     background-color: black;
     border-radius: 5px;
+   }
+
+   nav:hover{
+    color: red;
    }
 
    .dark div{
@@ -89,4 +93,59 @@ input{
 
 .negrita{
     font-weight: bolder;
+}
+
+.natbar{
+    background-image: url(https://th.bing.com/th/id/R.eaebd81008fcc55b297ffb173a8b59a2?rik=L2Ant2LAANpLNw&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fijo{
+    margin: 0%;
+    padding: 0%;
+}
+
+.fijar{
+    width: 95%;
+}
+
+.menutransparent:hover{
+    background: rgb(0, 0, 0, 0.1);
+}
+
+.final{
+    right: 0
+}
+
+@media(min-width: 768px){
+ .final{
+    right: 0 !important;
+    position: absolute !important;
+ }
+}
+
+.carrosa{
+    width: 10rem;
+    height: 10rem;
+
+}
+
+.flexible{
+    display: block;
+}
+   
+.bordeado{
+    border-right: gray solid;
+    border-left: gray solid;
+}
+
+@media(min-width: 768px){
+    .flexible{
+        display: flex;
+    }
+}
+
+.margen{
+    padding: 0.5rem;
 }

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/syles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,900&family=Mulish:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,900&family=Mulish:wght@300&family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 <!-- elijo este documento para que se le avalue el css, ademas le quiero comentar
 que no pude poner la imagen de background como queria
@@ -19,34 +19,72 @@ si pudiera aconsejarme como hacerlo y avisarme de otras malas practicas
 que tenga, se lo agradeceria. Muchas gracias y saludos-->
 <body>
     <header>
-        <img class="banner" src="./assets/imagenes/caldera.png" alt="logo">
-        <h1 class="letra">la caldera gamer</h1>
-        <ul>
-            <li><a href="#">inicio</a></li>
-            <li><a href="./pages/informacion.html">informacion</a></li>
-            <li><a href="./pages/nosotros.html">nosotros</a></li>
-            <li><a href="./pages/tienda.html">tienda</a></li>
-            <li><a href="./pages/contacto.html">contacto</a></li>
-        </ul>
-        <h2 class="letra">Inicio</h2>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark natbar ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/imagenes/caldera.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                  </a>
+              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 final">
+                  <li class="nav-item">
+                    <a class="nav-link active menutransparent" aria-current="page" href="#">inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active menutransparent" aria-current="page" href="./pages/informacion.html">informacion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active menutransparent" aria-current="page" href="./pages/nosotros.html">nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active menutransparent" aria-current="page" href="./pages/tienda.html">tienda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active menutransparent" aria-current="page" href="./pages/contacto.html">contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+            
+        <div class="container fijo">
+            <div class="row justify-content-md-start">
+              <div class="col-md-auto">
+                <img class="banner" src="./assets/imagenes/caldera.png" alt="logo">
+              </div>
+              <div class="col-md-auto">
+                <h1 class="letra">la caldera gamer</h1>
+              </div>
+            </div>
+            </div>
+            <h2 class="letra">Inicio</h2>
 
     </header>
     <main>
+        <div class="container bordeado">
         <h3 class="padtitul letra">LA MEJOR TIENDA NINTENDERA</h3>
+            <div class="flexible">
          <img class="normie" src="./assets/imagenes/R.jfif" alt="imagen-de-mario-llendo-en-auto">
         <p>la nintendo switch es ahora una consola que esta en hogares de muchos,
             despues de todo estamos hablando de mas de 100M de unidades vendidas.
             Sabemos que muchos buscan el precio optimo para sus juegos asi que nosotros
             nos encargamos de traerle los mejores precios digitales para que asi puedas comprar aun mas juegos
         </p>
-
+            </div>
         <h3 class="padtitul letra">PORQUE ELEGIRNOS?</h3>
+            <div class="flexible">
         <P>Precios baratos, entrega inmediata de codigos, codigos verificados y totalmente seguros con una garantia
             son muchas de las cosas que nos enorgullecemos de tener, ademas contamos con un lugar fisico para que nos
-            vengas a conocer.
+            vengas a conocer y con las mejores ofertas.
         </P>
-
+        <img class="normie" src="./assets/imagenes/ofertas-black-friday-nintendo-switch-2874779.webp" alt="">
+            </div>
+         </div>
     </main>
+
     <!-- este div esta para trazar una linea entre el main y el footer-->
     <div class="dark div">
         <div>
@@ -72,7 +110,7 @@ que tenga, se lo agradeceria. Muchas gracias y saludos-->
 
 
     </footer>
-    
+
     <script src="./JS/bootstrap.bundle.min.js"></script>
 </body>
 </html>
