@@ -8,7 +8,7 @@ body{
     font-family: 'Merriweather', serif;
 }
 
-.letra{
+.letratitulo{
     font-family: 'Permanent Marker', cursive;
 }
 
@@ -22,20 +22,10 @@ header{
     width: 4rem;
     height: 4rem;
 }
-
-   ul {
-    list-style-type: none;
-   }
    
    .venta{
-    height: 60px;
-    width: 70px;
-   }
-   
-   li{
-    display: inline-block;
-    align-items: flex-end;
-    margin: 0;
+    height: 4.5rem;
+    width: 5rem;
    }
    
    a{
@@ -47,10 +37,6 @@ header{
     border-radius: 5px;
    }
 
-   nav:hover{
-    color: red;
-   }
-
    .dark div{
   
     border-bottom:solid 1px grey;
@@ -58,19 +44,14 @@ header{
     height:50px;
   }
 
-.normie{
+.normieIMG{
     height: 100px;
     width: 130px;
 }
 
-.juegos{
-   height: 180px;
-   width: 120px; 
-}
-
 iframe{
-    width: 150px;
-    height: 150px;
+    width: 10em;
+    height: 10rem;
 }
 
 .padtitul{
@@ -147,7 +128,7 @@ input{
 }
 
 .margen{
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 @media(max-width: 768px){
@@ -156,3 +137,27 @@ input{
         background-size: cover;
     }   
 }
+
+.flextienda{
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+@media(min-width: 768px){
+    .flextienda{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+    }
+}
+
+.animate__animated.animate__shakeY {
+    --animate-duration: 3s;
+  }

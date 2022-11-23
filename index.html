@@ -1,27 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>la caldera gamer</title>
     <link rel="shortcut icon" href="./assets/imagenes/caldera.png" type="image/png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/syles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,900&family=Mulish:wght@300&family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
-<!-- elijo este documento para que se le avalue el css, ademas le quiero comentar
-que no pude poner la imagen de background como queria
-(imagen completa y que cubra toda la pantalla en width digamos)
-si pudiera aconsejarme como hacerlo y avisarme de otras malas practicas 
-que tenga, se lo agradeceria. Muchas gracias y saludos-->
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark natbar ">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand menutransparent" href="#">
                     <img src="./assets/imagenes/caldera.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
                   </a>
               <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,39 +49,38 @@ que tenga, se lo agradeceria. Muchas gracias y saludos-->
         <div class="container fijo">
             <div class="row justify-content-md-start">
               <div class="col-md-auto">
-                <img class="banner" src="./assets/imagenes/caldera.png" alt="logo">
+                <img class="banner" src="./assets/imagenes/caldera.png" alt="logo de la pagina">
               </div>
               <div class="col-md-auto">
-                <h1 class="letra">la caldera gamer</h1>
+                <h1 class="letratitulo">la caldera gamer</h1>
               </div>
             </div>
             </div>
-            <h2 class="letra">Inicio</h2>
+            <h2 class="letratitulo">Inicio</h2>
 
     </header>
     <main>
         <div class="container bordeado">
-        <h3 class="padtitul letra">LA MEJOR TIENDA NINTENDERA</h3>
+        <h3 class="padtitul letratitulo">LA MEJOR TIENDA NINTENDERA</h3>
             <div class="flexible">
-         <img class="normie" src="./assets/imagenes/R.jfif" alt="imagen-de-mario-llendo-en-auto">
+         <img class="normieIMG" src="./assets/imagenes/R.jfif" alt="imagen-de-mario-llendo-en-auto">
         <p>la nintendo switch es ahora una consola que esta en hogares de muchos,
             despues de todo estamos hablando de mas de 100M de unidades vendidas.
             Sabemos que muchos buscan el precio optimo para sus juegos asi que nosotros
             nos encargamos de traerle los mejores precios digitales para que asi puedas comprar aun mas juegos
         </p>
             </div>
-        <h3 class="padtitul letra">PORQUE ELEGIRNOS?</h3>
+        <h3 class="padtitul letratitulo">PORQUE ELEGIRNOS?</h3>
             <div class="flexible">
         <P>Precios baratos, entrega inmediata de codigos, codigos verificados y totalmente seguros con una garantia
             son muchas de las cosas que nos enorgullecemos de tener, ademas contamos con un lugar fisico para que nos
             vengas a conocer y con las mejores ofertas.
         </P>
-        <img class="normie" src="./assets/imagenes/ofertas-black-friday-nintendo-switch-2874779.webp" alt="">
+        <img class="normieIMG" src="./assets/imagenes/ofertas-black-friday-nintendo-switch-2874779.webp" alt="imagen de ofertas en juegos de nintendo">
             </div>
          </div>
     </main>
 
-    <!-- este div esta para trazar una linea entre el main y el footer-->
     <div class="dark div">
         <div>
 
@@ -94,20 +89,63 @@ que tenga, se lo agradeceria. Muchas gracias y saludos-->
     <footer>
         <p>todos los derechos reservados, la caldera gamer 2022</p>
 
-        <p>aceptamos</p>
-        <img class="venta" src="./assets/imagenes/Paypal_2014_logo.png" alt="paypal-logo">
-        <img class="venta" src="./assets/imagenes/Mastercard-logo.svg.png" alt="mastercard-logo">
-        <img class="venta" src="./assets/imagenes/VISA-FB.jpg" alt="visa-logo">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              aceptamos
+            </div>
+            <div class="col">
+              nuestras redes
+            </div>
+            <div class="col">
+              pregunta
+            </div>
+          </div>
+        </div>
 
-        <p>nuestras redes</p>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <img class="venta" src="./assets/imagenes/Paypal_Logo_icon-icons.com_60551.png" alt="paypal-logo">
+            </div>
+            <div class="col">
+              <a href="https://www.instagram.com/" target="_blank"><img class="venta" src="./assets/imagenes/instagram_108043.png" alt="instagram-logo"></a>
+            </div>
+            <div class="col">
+              <a href="https://web.whatsapp.com/" target="_blank"><img class="venta" src="./assets/imagenes/whatsapp_108042.png" alt="whatsapp-logo"></a>
+            </div>
+          </div>
+        </div>
 
-        <a href="https://www.instagram.com/" target="_blank"><img class="venta" src="./assets/imagenes/Instagram_logo_2022.svg.png" alt="instagram-logo"></a>
-        <a href="https://twitter.com/" target="_blank"><img class="venta" src="./assets/imagenes/Twitter-logo.svg (1).webp" alt="twitter-logo"></a>
-        <a href="https://www.facebook.com/" target="_blank"><img class="venta" src="./assets/imagenes/124010 (1).png" alt="facebook-logo"></a>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <img class="venta" src="./assets/imagenes/mastercard_old_payment_method_card_icon_142735.png" alt="mastercard-logo">
 
-        <p>pregunta</p>
-        <a href="https://web.whatsapp.com/" target="_blank"><img class="venta" src="./assets/imagenes/WhatsApp_logo-color-vertical.svg.webp" alt="whatsapp-logo"></a>
+            </div>
+            <div class="col">
+              <a href="https://twitter.com/" target="_blank"><img class="venta" src="./assets/imagenes/social_media_logo_twitter_icon-icons.com_59061.png" alt="twitter-logo"></a>
 
+            </div>
+            <div class="col">
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <img class="venta" src="./assets/imagenes/visa_82017.png" alt="visa-logo">
+
+            </div>
+            <div class="col">
+              <a href="https://www.facebook.com/" target="_blank"><img class="venta" src="./assets/imagenes/facebook_108044.png" alt="facebook-logo"></a>
+
+            </div>
+            <div class="col">
+            </div>
+          </div>
+        </div>
 
     </footer>
 

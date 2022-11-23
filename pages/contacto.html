@@ -1,33 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>la caldera gamer</title>
     <link rel="shortcut icon" href="../assets/imagenes/caldera.png" type="image/png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/syles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,900&family=Mulish:wght@300&display=swap" rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,900&family=Mulish:wght@300&family=Permanent+Marker&display=swap" rel="stylesheet"></head>
 <body>
     <header>
-        <img class="banner" src="../assets/imagenes/caldera.png" alt="logo">
-        <h1>la caldera gamer</h1>
-        <ul>
-            <li><a href="../index.html">inicio</a></li>
-            <li><a href="./informacion.html">informacion</a></li>
-            <li><a href="./nosotros.html">nosotros</a></li>
-            <li><a href="./tienda.html">tienda</a></li>
-            <li><a href="#">contacto</a></li>
-        </ul>
-        <h2>Contacto</h2>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark natbar ">
+            <div class="container-fluid">
+                <a class="navbar-brand menutransparent" href="../index.html">
+                    <img src="../assets/imagenes/caldera.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                  </a>
+              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 final">
+                  <li class="nav-item">
+                    <a class="nav-link active menutransparent" aria-current="page" href="../index.html">inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active menutransparent" aria-current="page" href="./informacion.html">informacion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active menutransparent" aria-current="page" href="./nosotros.html">nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active menutransparent" aria-current="page" href="./tienda.html">tienda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active menutransparent" aria-current="page" href="#">contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+            
+        <div class="container fijo">
+            <div class="row justify-content-md-start">
+              <div class="col-md-auto">
+                <img class="banner" src="../assets/imagenes/caldera.png" alt="logo de la pagina">
+              </div>
+              <div class="col-md-auto">
+                <h1 class="letratitulo">la caldera gamer</h1>
+              </div>
+            </div>
+            </div>
+            <h2 class="letratitulo">CONTACTO</h2>
 
     </header>
     <main>
-        <h3>Unete</h3>
+        <h3 class="animate__animated animate__shakeY letratitulo">UNETE</h3>
         <div class="bordeado">
             <p>ofertas, concursos, exclusividades y mas por tan solo subscribirte
             que estas esperando? En este mismo instante podriamos estar haciendo algun evento que te estas perdiendo.
@@ -61,20 +93,63 @@
     <footer>
         <p>todos los derechos reservados, la caldera gamer 2022</p>
 
-        <p>aceptamos</p>
-        <img class="venta" src="../assets/imagenes/Paypal_2014_logo.png" alt="">
-        <img class="venta" src="../assets/imagenes/Mastercard-logo.svg.png" alt="">
-        <img class="venta" src="../assets/imagenes/VISA-FB.jpg" alt="">
-
-        <p>nuestras redes</p>
-
-        <a href="https://www.instagram.com/" target="_blank"><img class="venta" src="../assets/imagenes/Instagram_logo_2022.svg.png" alt=""></a>
-        <a href="https://twitter.com/" target="_blank"><img class="venta" src="../assets/imagenes/Twitter-logo.svg (1).webp" alt=""></a>
-        <a href="https://www.facebook.com/" target="_blank"><img class="venta" src="../assets/imagenes/124010 (1).png" alt=""></a>
-
-        <p>pregunta</p>
-        <a href="https://web.whatsapp.com/" target="_blank"><img class="venta" src="../assets/imagenes/WhatsApp_logo-color-vertical.svg.webp" alt=""></a>
-
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                aceptamos
+              </div>
+              <div class="col">
+                nuestras redes
+              </div>
+              <div class="col">
+                pregunta
+              </div>
+            </div>
+          </div>
+  
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <img class="venta" src="../assets/imagenes/Paypal_Logo_icon-icons.com_60551.png" alt="paypal-logo">
+              </div>
+              <div class="col">
+                <a href="https://www.instagram.com/" target="_blank"><img class="venta" src="../assets/imagenes/instagram_108043.png" alt="instagram-logo"></a>
+              </div>
+              <div class="col">
+                <a href="https://web.whatsapp.com/" target="_blank"><img class="venta" src="../assets/imagenes/whatsapp_108042.png" alt="whatsapp-logo"></a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <img class="venta" src="../assets/imagenes/mastercard_old_payment_method_card_icon_142735.png" alt="mastercard-logo">
+  
+              </div>
+              <div class="col">
+                <a href="https://twitter.com/" target="_blank"><img class="venta" src="../assets/imagenes/social_media_logo_twitter_icon-icons.com_59061.png" alt="twitter-logo"></a>
+  
+              </div>
+              <div class="col">
+              </div>
+            </div>
+          </div>
+  
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <img class="venta" src="../assets/imagenes/visa_82017.png" alt="visa-logo">
+  
+              </div>
+              <div class="col">
+                <a href="https://www.facebook.com/" target="_blank"><img class="venta" src="../assets/imagenes/facebook_108044.png" alt="facebook-logo"></a>
+  
+              </div>
+              <div class="col">
+              </div>
+            </div>
+          </div>
 
     </footer>
 
