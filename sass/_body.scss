@@ -1,6 +1,9 @@
 body{
     background-image: linear-gradient(to top, #000000, #1b181c, #282a35, #2c404c, #31585b);
-    color: white;
+    color: $colorletra;
     font-family: 'Merriweather', serif;
     letter-spacing: 0.02cm;
+    .letratitulo{
+        font-family: $letraT
+    } 
 }

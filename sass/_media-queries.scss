@@ -16,15 +16,19 @@
     }   
 }
 
-@media(max-width:768px){
-    .flexible{
-        display: inline-block;
+@media(min-width:768px){
+    main{
+        .flexible{
+            display: flex;
+        }
     }
 }
 
 @media(max-width:768px){
-    .galeria{
-        width:100%
+    main{
+        .galeria{
+            width:100%
+        }
     }
 }
 

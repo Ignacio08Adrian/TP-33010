@@ -1,44 +1,11 @@
 @import "reset";
+@import "variables";
 @import "header";
-@import "media-queries.scss";
 @import "body";
 @import "footer";
-@import "mainindex";
 @import "maintienda";
-@import "variables";
-
-.letratitulo{
-    font-family: 'Permanent Marker', cursive;
-} 
-
-.normieIMG{
-    height: 8rem;
-    width: 10rem;
-}
-
-.padtitul{
-    padding: 10px;
-}
-
-iframe{
-    width: 10em;
-    height: 10rem;
-}
-
-.flexible{
-    display: flex;
-}
-   
-.bordeado{
-    border-right: gray solid;
-    border-left: gray solid;
-}
-  .paderror{
-    margin: 4rem;
-    padding: 4rem;
-  }
-
-  form{
-    background-image: url(../assets/imagenes/1053867.jpg);
-    background-size: cover;
-  }
+@import "mainindex";
+@import "maincontacto";
+@import "mainerror";
+@import "mainnosotros";
+@import "media-queries.scss";

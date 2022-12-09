@@ -29,41 +29,21 @@ header {
       width: 4rem;
       height: 4rem; }
 
-@media (min-width: 992px) {
-  header .natbar .final {
-    right: 0 !important;
-    position: absolute !important; } }
-
-@media (max-width: 768px) {
-  header {
-    background-image: url(https://i.pinimg.com/originals/8c/97/7d/8c977d06abc3eee45c0e696c3e325dc1.jpg);
-    background-size: cover; } }
-
-@media (max-width: 768px) {
-  .flexible {
-    display: inline-block; } }
-
-@media (max-width: 768px) {
-  .galeria {
-    width: 100%; } }
-
-@media (max-width: 991px) {
-  .custom-toggler {
-    color: violet !important;
-    border: solid violet 0.3rem !important; } }
-
 body {
   background-image: linear-gradient(to top, #000000, #1b181c, #282a35, #2c404c, #31585b);
   color: white;
   font-family: 'Merriweather', serif;
   letter-spacing: 0.02cm; }
+  body .letratitulo {
+    font-family: "Permanent Marker", cursive; }
 
 footer .venta {
   height: 4.5rem;
   width: 5rem; }
 
-main .galeria {
-  width: 80%; }
+footer .letraheader {
+  font-family: "Permanent Marker", cursive;
+  color: gray; }
 
 main .flextienda {
   display: flex;
@@ -75,33 +55,56 @@ main .flextienda {
   main .flextienda .margen {
     padding: 1rem; }
     main .flextienda .margen .fijar {
-      width: 95%; }
+      width: 90%; }
 
-.letratitulo {
-  font-family: 'Permanent Marker', cursive; }
+main .galeria {
+  width: 90%; }
 
-.normieIMG {
-  height: 8rem;
-  width: 10rem; }
-
-.padtitul {
-  padding: 10px; }
-
-iframe {
-  width: 10em;
-  height: 10rem; }
-
-.flexible {
-  display: flex; }
-
-.bordeado {
+main .bordeado {
   border-right: gray solid;
   border-left: gray solid; }
 
-.paderror {
+main .flexible {
+  display: block; }
+
+main .normieIMG {
+  width: 10rem;
+  height: 8rem; }
+
+main .padtitul {
+  padding: 10px; }
+
+main form {
+  background-image: url(../assets/imagenes/1053867.jpg);
+  background-size: cover; }
+
+main .paderror {
   margin: 4rem;
   padding: 4rem; }
 
-form {
-  background-image: url(../assets/imagenes/1053867.jpg);
-  background-size: cover; }
+main iframe {
+  width: 10rem;
+  height: 8rem; }
+
+@media (min-width: 992px) {
+  header .natbar .final {
+    right: 0 !important;
+    position: absolute !important; } }
+
+@media (max-width: 768px) {
+  header {
+    background-image: url(https://i.pinimg.com/originals/8c/97/7d/8c977d06abc3eee45c0e696c3e325dc1.jpg);
+    background-size: cover; } }
+
+@media (min-width: 768px) {
+  main .flexible {
+    display: flex; } }
+
+@media (max-width: 768px) {
+  main .galeria {
+    width: 100%; } }
+
+@media (max-width: 991px) {
+  .custom-toggler {
+    color: violet !important;
+    border: solid violet 0.3rem !important; } }

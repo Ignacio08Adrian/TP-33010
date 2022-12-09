@@ -1,5 +1,19 @@
 main{
     .galeria{
-        width:80%
+        width: $width;
       }
+    .bordeado{
+        border-right: gray solid;
+        border-left: gray solid;
+      }
+    .flexible{
+        display: block;
+      }
+    .normieIMG{
+      width: $widthI;
+      height: $height; 
+    }
+    .padtitul{
+      padding: 10px;
+  }
 }
