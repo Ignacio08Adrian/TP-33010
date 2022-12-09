@@ -1,0 +1,32 @@
+header{
+    background-image: url(../assets/imagenes/rsz_21046496.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .natbar{
+        background-image: url(https://th.bing.com/th/id/R.eaebd81008fcc55b297ffb173a8b59a2?rik=L2Ant2LAANpLNw&pid=ImgRaw&r=0);
+        background-size: cover;
+        background-repeat: no-repeat;
+        .Linknav{
+            text-decoration: none;
+            border: solid 2px;
+            border-color: rgb(14, 35, 35);
+            color: white;
+            background-color: black;
+            border-radius: 5px;
+           }
+        .final{
+            right: 0
+        }
+        .menutransparent:hover{
+            background: gray;
+        }
+    }
+    .fijo{
+        margin: 0%;
+        padding: 0%;
+        .banner{
+            width: 4rem;
+            height: 4rem;
+        }
+    }
+}

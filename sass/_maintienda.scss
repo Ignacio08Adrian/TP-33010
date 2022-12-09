@@ -1,0 +1,16 @@
+main{
+    .flextienda{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        .margen{
+            padding: 1rem;
+            .fijar{
+                width: 95%;
+            }
+        }
+    }
+}

@@ -1,101 +1,28 @@
-*{
-    margin: 4px;
-}
-
-body{
-    background-image: linear-gradient(to top, #000000, #1b181c, #282a35, #2c404c, #31585b);
-    color: white;
-    font-family: 'Merriweather', serif;
-}
+@import "reset";
+@import "header";
+@import "media-queries.scss";
+@import "body";
+@import "footer";
+@import "mainindex";
+@import "maintienda";
+@import "variables";
 
 .letratitulo{
     font-family: 'Permanent Marker', cursive;
-}
-
-header{
-    background-image: url(../assets/imagenes/rsz_21046496.png) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.banner{
-    width: 4rem;
-    height: 4rem;
-}
-   
-   .venta{
-    height: 4.5rem;
-    width: 5rem;
-   }
-   
-   a{
-    text-decoration: none;
-    border: solid 2px;
-    border-color: rgb(14, 35, 35);
-    color: white;
-    background-color: black;
-    border-radius: 5px;
-   }
+} 
 
 .normieIMG{
     height: 8rem;
     width: 10rem;
 }
 
-iframe{
-    width: 10em;
-    height: 10rem;
-}
-
 .padtitul{
     padding: 10px;
 }
 
-input{
-    display: block;
-    padding-right: 100px;
-}
-
-.formblock{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.consulta{
-    padding-bottom: 80px;
-}
-
-.negrita{
-    font-weight: bolder;
-}
-
-.natbar{
-    background-image: url(https://th.bing.com/th/id/R.eaebd81008fcc55b297ffb173a8b59a2?rik=L2Ant2LAANpLNw&pid=ImgRaw&r=0);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.fijo{
-    margin: 0%;
-    padding: 0%;
-}
-
-.fijar{
-    width: 95%;
-}
-
-.menutransparent:hover{
-    background: rgb(0, 0, 0, 0.1);
-}
-
-.final{
-    right: 0
-}
-
-.carrosa{
-    width: 10rem;
+iframe{
+    width: 10em;
     height: 10rem;
-
 }
 
 .flexible{
@@ -106,66 +33,12 @@ input{
     border-right: gray solid;
     border-left: gray solid;
 }
-
-.margen{
-    padding: 1rem;
-}
-
-.flextienda{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
-}
-
-.animate__animated.animate__shakeY {
-    --animate-duration: 3s;
+  .paderror{
+    margin: 4rem;
+    padding: 4rem;
   }
 
-  .galeria{
-    width:75%
-  }
-
-  /*media queries de la pagina*/
-
-  @media(min-width: 992px){
-    .final{
-       right: 0 !important;
-       position: absolute !important;
-    }
-   }
-
-@media(max-width: 768px){
-    header{
-        background-image: url(https://i.pinimg.com/originals/8c/97/7d/8c977d06abc3eee45c0e696c3e325dc1.jpg);
-        background-size: cover;
-    }   
-}
-
-@media(min-width: 768px){
-    .flexible{
-        display: flex;
-    }
-}
-
-@media(max-width:768px){
-    .flexible{
-        display: inline-block;
-    }
-}
-
-@media(max-width:768px){
-    .galeria{
-        width:100%
-    }
-}
-
-@media(max-width:991px){
-    .custom-toggler{
-        border-color: lightgreen !important  ; 
-        color: lightgreen !important  ;
-        border: solid lightgreen 0.1rem !important;
-    }
+  form{
+    background-image: url(../assets/imagenes/1053867.jpg);
+    background-size: cover;
   }
