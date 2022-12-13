@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="../assets/imagenes/caldera.png" type="image/png"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/aos.css">
     <link rel="stylesheet" href="../css/syles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -64,7 +65,7 @@
         <div class="container bordeado">
           <h3 class=" padtitul letratitulo animate__animated animate__flash">a que nos dedicamos?</h3>
             <div class="flexible">
-                <img class="normieIMG" src="../assets/imagenes/236571.webp" alt="multiples power ups y enemigos de super mario">
+                <img data-aos="fade-down" class="normieIMG" src="../assets/imagenes/236571.webp" alt="multiples power ups y enemigos de super mario">
                 <p>a la venta de códigos digitales para canjearlos por tus juegos favoritos de la Nintendo switch.
                   Próximamente intentaremos traer dlcs y otros contenidos
                 </p>
@@ -73,7 +74,7 @@
                 <p>también podes unirte a nuestro boletín de noticias donde brindaremos información de los últimos lanzamientos de la plataforma, 
                   actualizaciones de sus juegos y sorteos propios de nosotros
                 </p>
-                <img class="normieIMG" src="../assets/imagenes/2520476.jpg" alt="multiples personajes de nintendo">
+                <img data-aos="fade-up" class="normieIMG" src="../assets/imagenes/2520476.jpg" alt="multiples personajes de nintendo">
             </div>
         </div>
         
@@ -145,5 +146,9 @@
     </footer>
 
     <script src="../JS/bootstrap.bundle.min.js"></script>
+    <script src="../JS/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
 </body>
 </html>
