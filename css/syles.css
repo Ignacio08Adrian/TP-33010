@@ -26,8 +26,8 @@ header {
     margin: 0%;
     padding: 0%; }
     header .fijo .banner {
-      width: 4rem;
-      height: 4rem; }
+      height: 4rem;
+      width: 4rem; }
 
 body {
   background-image: linear-gradient(to top, #000000, #1b181c, #282a35, #2c404c, #31585b);
@@ -68,8 +68,8 @@ main .flexible {
   display: block; }
 
 main .normieIMG {
-  width: 10rem;
-  height: 8rem; }
+  height: 8rem;
+  width: 10rem; }
 
 main .padtitul {
   padding: 10px; }
@@ -83,8 +83,8 @@ main .paderror {
   padding: 4rem; }
 
 main iframe {
-  width: 10rem;
-  height: 8rem; }
+  height: 8rem;
+  width: 10rem; }
 
 @media (min-width: 992px) {
   header .natbar .final {

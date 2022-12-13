@@ -1,17 +1,16 @@
 main{
     .galeria{
-        width: $width;
+        width: $widthG;
       }
     .bordeado{
-        border-right: gray solid;
-        border-left: gray solid;
+        border-right: $colorsecundario solid;
+        border-left: $colorsecundario solid;
       }
     .flexible{
         display: block;
       }
     .normieIMG{
-      width: $widthI;
-      height: $height; 
+        @include tamaños(10rem, 8rem);
     }
     .padtitul{
       padding: 10px;

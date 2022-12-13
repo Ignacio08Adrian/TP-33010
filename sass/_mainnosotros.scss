@@ -1,6 +1,5 @@
 main{
     iframe{
-        width: $widthI;
-        height: $height;
+        @include tamaños(10rem, 8rem);
     }
 }

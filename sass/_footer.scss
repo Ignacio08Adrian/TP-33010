@@ -1,10 +1,9 @@
 footer{
     .venta{
-        height: 4.5rem;
-        width: 5rem;
+        @include tamaños(5rem, 4.5rem);
     }
     .letraheader{
         font-family: $letraT;
-        color: gray;
+        color: $colorsecundario;
     }
 }

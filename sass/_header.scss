@@ -18,15 +18,14 @@ header{
             right: 0
         }
         .menutransparent:hover{
-            background: gray;
+            background: $colorsecundario;
         }
     }
     .fijo{
         margin: 0%;
         padding: 0%;
         .banner{
-            width: 4rem;
-            height: 4rem;
+            @include tamaños(4rem, 4rem);
         }
     }
 }
