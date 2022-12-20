@@ -1,6 +1,6 @@
 * {
-  margin: 4px;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box; }
 
 header {
@@ -17,7 +17,15 @@ header {
       border-color: #0e2323;
       color: white;
       background-color: black;
-      border-radius: 5px; }
+      border-radius: 5px;
+      margin: 4px; }
+      header .natbar .Linknav .button.si-hamburger {
+        width: 32px;
+        height: 32px;
+        border-radius: 0;
+        background-image: url(../assets/imagenes/00194480000259____6__640x640.webp);
+        background-repeat: no-repeat;
+        background-size: contain; }
     header .natbar .final {
       right: 0; }
     header .natbar .menutransparent:hover {
@@ -55,7 +63,7 @@ main .flextienda {
   main .flextienda .margen {
     padding: 1rem; }
     main .flextienda .margen .fijar {
-      width: 90%; }
+      width: 100%; }
 
 main .galeria {
   width: 90%; }
@@ -106,5 +114,5 @@ main iframe {
 
 @media (max-width: 991px) {
   .custom-toggler {
-    color: violet !important;
-    border: solid violet 0.3rem !important; } }
+    color: lightgreen !important;
+    border: solid lightgreen 0.3rem !important; } }

@@ -27,15 +27,15 @@
 @media(max-width:768px){
     main{
         .galeria{
-            width:100%
+            width: $widthA;
         }
     }
 }
 
 @media(max-width:991px){
     .custom-toggler{
-        color: violet !important  ;
-        border: solid violet 0.3rem !important;
+        color: lightgreen !important  ;
+        border: solid lightgreen 0.3rem !important;
     }
   }
 

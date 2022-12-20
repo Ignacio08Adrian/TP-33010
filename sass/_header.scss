@@ -13,6 +13,15 @@ header{
             color: $colorletra;
             background-color: black;
             border-radius: 5px;
+            margin: 4px;
+            .button.si-hamburger{
+                width: 32px;
+                height: 32px;
+                border-radius: 0;
+                background-image: url(../assets/imagenes/00194480000259____6__640x640.webp);
+                background-repeat: no-repeat;
+                background-size: contain;
+              }
            }
         .final{
             right: 0
